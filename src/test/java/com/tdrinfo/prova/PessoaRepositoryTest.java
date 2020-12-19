@@ -53,6 +53,12 @@ class PessoaRepositoryTest {
 	    validatorFactory.close();
 	}
 	
+	@Test
+	void injectedComponentsNotNull() {
+		assertNotNull(entityManager);
+		assertNotNull(pessoaRepository);
+	}
+	
 	// Casos de Sucesso
 	
 	@Test
