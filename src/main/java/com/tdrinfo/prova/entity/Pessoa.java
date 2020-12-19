@@ -14,7 +14,7 @@ import javax.validation.constraints.Size;
 import org.hibernate.validator.constraints.br.CPF;
 
 @Entity
-@Table(name = "funcionario")
+@Table(name = "pessoa")
 public class Pessoa {
 
 	@Id
